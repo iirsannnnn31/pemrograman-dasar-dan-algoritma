@@ -1,0 +1,24 @@
+# nama : irsan
+# nim : D0425301
+# array 
+
+# Membuat array (list) berisi nilai-nilai
+nilai_mahasiswa = [85, 90, 78, 92, 88]
+
+# Menampilkan isi array
+print("Data nilai mahasiswa:", nilai_mahasiswa)
+
+# Mengakses elemen array
+print("Nilai pertama:", nilai_mahasiswa[0])
+
+# Mengubah isi array
+nilai_mahasiswa[2] = 80
+print("Setelah diubah:", nilai_mahasiswa)
+
+# Menambahkan data baru ke array
+nilai_mahasiswa.append(95)
+print("Setelah ditambahkan data baru:", nilai_mahasiswa)
+
+# Menghitung rata-rata nilai
+rata_rata = sum(nilai_mahasiswa) / len(nilai_mahasiswa)
+print("Rata-rata nilai mahasiswa:", rata_rata)
