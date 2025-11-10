@@ -1,0 +1,32 @@
+# nama : irsan
+#nim : D0425301
+# dictionary
+
+data_mahasiswa = {
+    "Andi": 85,
+    "Budi": 90,
+    "Citra": 78,
+    "Dewi": 92
+}
+
+# Menampilkan isi dictionary
+print("\nData nilai mahasiswa:", data_mahasiswa)
+
+# Mengakses nilai berdasarkan kunci
+print("Nilai Budi:", data_mahasiswa["Budi"])
+
+# Menambahkan data baru
+data_mahasiswa["Eka"] = 88
+print("Setelah menambah data Eka:", data_mahasiswa)
+
+# Mengubah nilai salah satu mahasiswa
+data_mahasiswa["Citra"] = 80
+print("Setelah memperbarui nilai Citra:", data_mahasiswa)
+
+# Menghapus data
+del data_mahasiswa["Andi"]
+print("Setelah menghapus data Andi:", data_mahasiswa)
+
+# Menampilkan rata-rata nilai dari dictionary
+rata_rata_dict = sum(data_mahasiswa.values()) / len(data_mahasiswa)
+print("Rata-rata nilai mahasiswa:", rata_rata_dict)
